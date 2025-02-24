@@ -1,0 +1,21 @@
+I'm also stuck with this problem when I do it in first time 
+####################################################################
+The methord I use here is quite simple 
+####################################################################
+Assume, arr = {5, 2, 6, 4}
+we want to swap this array to make it beautiful(soretd array / reversed sorted array)
+Now I think of these two sorted arrays.
+
+    reverse sorted array - 6, 5, 4, 2
+    original array       - 5, 2, 6, 4
+    soted array          - 2, 4, 5, 6
+
+In the code, I made a num_of_swaps function for get the valid swaps. I itearte those sorted arrays and get the minimum of that number  of swaps 
+First I made array map to unorderd array to store the value and also made a array called visted for track the visit of the array 
+    1.Simpliy I did fllowing these steps in the function;
+    2.Iterate through the array: Loop through each element of the array.
+    3.heck conditions: For each element, check if it has been visited or if it matches the corresponding element in a sorted version of the array.
+    4.Continue if conditions are met: If either condition is true, skip to the next iteration.
+    5.Track unvisited elements: If the conditions are not met, store the index of the element, mark it as visited, and continue processing.
+Good Luck With the code...!
+#####################################################################
